@@ -1,4 +1,36 @@
-# Título del Proyecto
+# Prueba de habilidades
+
+Desarrollada con **HTML, CSS, JavaScript, PHP y MySQL**, esta plataforma representa un sitio web educativo en línea diseñado para enriquecer los conocimientos de los usuarios en diversas áreas.
+
+Los usuarios pueden registrarse en el sitio proporcionando detalles básicos como nombre, género, nombre de la escuela, correo electrónico y número de teléfono. Una vez registrados, tienen acceso a una amplia gama de pruebas de conocimiento que abarcan diversos temas.
+
+<p align="center">
+  <img src="./image/Readme-01.png" alt="Descripción de la imagen" width="60%">
+</p>
+
+Cada prueba es personalizable por el administrador y puede constar de cualquier número de preguntas, con un valor de puntos determinado por respuesta. Además, el tiempo límite para completar cada prueba también es ajustable.
+
+<p align="center">
+  <img src="./image/Readme-02.png" alt="Descripción de la imagen" width="60%">
+</p>
+
+Los resultados de las pruebas se almacenan en la base de datos del sistema, lo que permite a los usuarios rastrear su progreso a lo largo del tiempo.
+
+<p align="center">
+  <img src="./image/Readme-03.png" alt="Descripción de la imagen" width="60%">
+</p>
+
+El sitio web también incluye una sección de clasificaciones donde los usuarios pueden comparar sus resultados con los de otros participantes, fomentando así una competencia saludable y brindando motivación para mejorar continuamente.
+
+<p align="center">
+  <img src="./image/Readme-04.png" alt="Descripción de la imagen" width="60%">
+</p>
+
+Además, el sitio cuenta con un panel de administrador que ofrece un control completo sobre la plataforma. El administrador tiene la capacidad de gestionar usuarios, administrar las pruebas existentes y crear nuevas pruebas desde cero utilizando un formulario intuitivo.
+
+<p align="center">
+  <img src="./image/Readme-05.png" alt="Descripción de la imagen" width="60%">
+</p>
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
