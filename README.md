@@ -34,115 +34,147 @@ Además, el sitio cuenta con un panel de administrador que ofrece un control com
 
 **Consulta la versión preliminar del proyecto aquí:** [https://prueba-de-habilidades.com](https://alejandrovillegas.net/projects/project-01/index.php)
 
+# 📌 Información del Proyecto
+
+Este proyecto ha sido desarrollado como parte del portafolio de soluciones tecnológicas, con el objetivo de ofrecer una herramienta eficiente y funcional para usuarios autodidactas interesados en la gestión y desarrollo de proyectos web.
+
+- **Área**: Desarrollo de Proyectos Web
+
+- **Usuario Final**: Autodidactas y Desarrolladores
+
+- **Fecha de Desarrollo**: 10 de enero de 2024
+
+- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+
 # Guía de Instalación y Configuración del Proyecto
 
-### Requisitos del Sistema 📋
+## 🖥️ Requisitos del Sistema
 
 Para ejecutar este proyecto de manera local, es necesario contar con un entorno de desarrollo que incluya Apache, MySQL y PHP. Se recomienda el uso de **XAMPP**, ya que fue el entorno con el que se desarrolló el proyecto. Sin embargo, también es compatible con:
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+- **XAMPP** (Windows, macOS, Linux)
+
+- **WAMP** (Windows)
+
+- **MAMP** (macOS, Windows)
+
+- **LAMP** (Linux)
+
+## 🔧 Instalación y Configuración del Proyecto
+
+Siga los pasos según el entorno de desarrollo que esté utilizando:
+
+### Para XAMPP (Recomendado)
+
+1. Descargue y descomprima el archivo del proyecto en su sistema local.
+
+2. Copie la carpeta del proyecto y colóquela en el directorio **_htdocs_** dentro de la carpeta de instalación de XAMPP (Ejemplo: **C:\xampp\htdocs\mi_proyecto**).
+
+### Para WAMP
+
+1. Descargue y descomprima el archivo del proyecto.
+
+2. Copie la carpeta del proyecto y colóquela en el directorio **_www_** dentro de la carpeta de instalación de WAMP (Ejemplo: **C:\wamp64\www\mi_proyecto**).
+
+### Para MAMP
+
+1. Descargue y descomprima el archivo del proyecto.
+
+2. Copie la carpeta del proyecto y colóquela en el directorio **_htdocs_** dentro de la carpeta de instalación de MAMP (Ejemplo: **/Applications/MAMP/htdocs/mi_proyecto**).
+
+### Para LAMP
+
+1. Descargue y descomprima el archivo del proyecto.
+
+2. Mueva la carpeta del proyecto a **_/var/www/html/_** utilizando el siguiente comando en la terminal:
 
 ```
-Da un ejemplo
+sudo mv mi_proyecto /var/www/html/
 ```
 
-## Comenzando 🚀
+## 🗄️ Configuración de la Base de Datos
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+### Para XAMPP, WAMP y MAMP
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+1. Inicie su entorno de desarrollo y asegúrese de que **Apache** y **MySQL** estén en ejecución.
 
-### Pre-requisitos 📋
+2. Abra su navegador y acceda a **_phpMyAdmin_** ingresando:
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+- **XAMPP**: http://localhost/phpmyadmin
 
-```
-Da un ejemplo
-```
+- **WAMP**: http://localhost/phpmyadmin
 
-### Instalación 🔧
+- **MAMP**: http://localhost:8888/phpmyadmin
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+3. Diríjase a la pestaña **SQL** e ingrese el siguiente código para crear la base de datos:
 
 ```
-Da un ejemplo
+CREATE DATABASE General;
 ```
 
-_Y repite_
+4. Vaya a la pestaña Importar y seleccione el archivo **_DataBase.sql_** del repositorio para importar la estructura y los datos.
+
+### Para LAMP
+
+1. Abra la terminal y acceda a MySQL con:
 
 ```
-hasta finalizar
+mysql -u root -p
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+2. Cree la base de datos ejecutando:
 
 ```
-Da un ejemplo
+CREATE DATABASE General;
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+3. Salga de MySQL y luego importe la base de datos con:
 
 ```
-Da un ejemplo
+mysql -u root -p General < /ruta/del/archivo/DataBase.sql
 ```
 
-## Despliegue 📦
+Reemplace **_/ruta/del/archivo/_** con la ubicación real del archivo en su sistema.
 
-_Agrega notas adicionales sobre como hacer deploy_
+## 🚀 Ejecución del Proyecto
 
-## Construido con 🛠️
+1. Inicie su entorno de desarrollo:
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+- **XAMPP**: Abra el "Panel de Control de XAMPP" y active **Apache** y **MySQL**.
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-- [Maven](https://maven.apache.org/) - Manejador de dependencias
-- [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+- **WAMP**: Haga clic en el icono de WAMP y active los servicios.
 
-## Contribuyendo 🖇️
+- **MAMP**: Abra MAMP y haga clic en **Start Servers**.
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+- **LAMP**: Ejecute los siguientes comandos en la terminal:
 
-## Wiki 📖
+```
+sudo systemctl start apache2
+sudo systemctl start mysql
+```
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+2. Abra un navegador e ingrese la siguiente URL según el entorno:
 
-## Versionado 📌
+- **XAMPP / WAMP**: **_http://localhost/_**
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+- **MAMP**: **_http://localhost:8888/_**
 
-## Autores ✒️
+- **LAMP**: **_http://localhost/_**
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+El proyecto ahora está funcionando en su entorno local. 🎉
 
-- **Andrés Villanueva** - _Trabajo Inicial_ - [villanuevand](https://github.com/villanuevand)
-- **Fulanito Detal** - _Documentación_ - [fulanitodetal](#fulanito-de-tal)
+## 🔑 Credenciales de Acceso
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
+### 🛠️ Detalles de Inicio de Sesión para Administrador
 
-## Licencia 📄
+- Nombre de usuario: **_admin@gmail.com_**
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+- Contraseña: **_admin_**
 
-## Expresiones de Gratitud 🎁
+### 👤 Detalles de Inicio de Sesión para Usuario Preregistrado
 
-- Comenta a otros sobre este proyecto 📢
-- Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-- Da las gracias públicamente 🤓.
-- Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-- etc.
+- Nombre de usuario: **_alex@gmail.com_**
 
----
+- Contraseña: **_12345_**
 
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+Tambien puede **registrar un nuevo usuario** desde la interfaz de la aplicación.
