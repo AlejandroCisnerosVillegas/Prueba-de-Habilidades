@@ -4,7 +4,7 @@ _Acá va un párrafo que describa lo que es el proyecto_
 
 ## Comenzando 🚀
 
-<img src="https://example.com/imagen.png" alt="Descripción de la imagen" style="max-width:500px; max-height:300px; width:100%; height:auto;">
+<img src="./image/bg.png" alt="Descripción de la imagen" style="max-width:500px; max-height:300px; width:100%; height:auto;">
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
