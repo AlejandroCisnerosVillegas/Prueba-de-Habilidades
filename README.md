@@ -1,4 +1,4 @@
-# Prueba de habilidades
+# Prueba de Habilidades
 
 Desarrollada con **HTML, CSS, JavaScript, PHP y MySQL**, esta plataforma representa un sitio web educativo en línea diseñado para enriquecer los conocimientos de los usuarios en diversas áreas.
 
@@ -32,13 +32,21 @@ Además, el sitio cuenta con un panel de administrador que ofrece un control com
   <img src="./image/Readme-05.png" alt="Descripción de la imagen" width="60%">
 </p>
 
-_Acá va un párrafo que describa lo que es el proyecto_
+**Consulta la versión preliminar del proyecto aquí:** [https://prueba-de-habilidades.com](https://alejandrovillegas.net/projects/project-01/index.php)
+
+# Guía de Instalación y Configuración del Proyecto
+
+### Requisitos del Sistema 📋
+
+Para ejecutar este proyecto de manera local, es necesario contar con un entorno de desarrollo que incluya Apache, MySQL y PHP. Se recomienda el uso de **XAMPP**, ya que fue el entorno con el que se desarrolló el proyecto. Sin embargo, también es compatible con:
+
+_Que cosas necesitas para instalar el software y como instalarlas_
+
+```
+Da un ejemplo
+```
 
 ## Comenzando 🚀
-
-<p align="center">
-  <img src="./image/bg.png" alt="Descripción de la imagen" width="60%">
-</p>
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
