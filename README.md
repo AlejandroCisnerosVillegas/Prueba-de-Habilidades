@@ -32,7 +32,7 @@ Además, el sitio cuenta con un panel de administrador que ofrece un control com
   <img src="./image/Readme-05.png" alt="Descripción de la imagen" width="60%">
 </p>
 
-**Consulta la versión preliminar del proyecto aquí:** [https://prueba-de-habilidades.com](https://alejandrovillegas.net/projects/project-01/index.php)
+**Consulta la versión preliminar del proyecto aquí:** [https://prueba-de-habilidades.com](https://www.alejandrovillegas.dev/projects/project-01/index.php)
 
 # 📌 Información del Proyecto
 
@@ -44,7 +44,7 @@ Este proyecto ha sido desarrollado como parte del portafolio de soluciones tecno
 
 - **Fecha de Desarrollo**: 10 de enero de 2024
 
-- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+- **Portafolio de Proyectos**: [www.alejandrovillegas.dev](https://www.alejandrovillegas.dev)
 
 # Guía de Instalación y Configuración del Proyecto
 
